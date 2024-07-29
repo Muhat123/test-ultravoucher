@@ -29,7 +29,6 @@ function sortWord(word) {
     for (let i = 0; i < n - 1; i++) {
         for (let j = 0; j < n - i - 1; j++) {
             if (characters[j] > characters[j + 1]) {
-                // Tukar posisi karakter
                 const temp = characters[j];
                 characters[j] = characters[j + 1];
                 characters[j + 1] = temp;
